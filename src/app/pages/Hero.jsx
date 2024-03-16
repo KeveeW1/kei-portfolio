@@ -2,7 +2,7 @@
 import React from 'react';
 import Image from 'next/image';
 import { TypeAnimation } from 'react-type-animation';
-
+import Navbar from './Navbar';
 
 const Hero = () => {
     
@@ -30,9 +30,9 @@ const Hero = () => {
             left: 490,
         }}>
         </div>
-
-    <h1 className='text-black font-bold text-7xl font-sans pt-40' style={{ transform: 'translate(0%, 0%)', zIndex: 1 }}>keira wong</h1>
+    
     <div className='text-center'>
+    <h1 className='text-black font-bold text-7xl font-sans pt-40' style={{ transform: 'translate(0%, 0%)', zIndex: 1 }}>keira wong</h1>
     <h1 className='text-black text-3xl text-center inline-block'>i'm a&nbsp;</h1>
     <TypeAnimation className='text-black font-sans'
       sequence={[
@@ -51,7 +51,7 @@ const Hero = () => {
       repeat={Infinity}
     />
 </div>
-        <div className='flex space-x-2 justify-center py-4 '>
+        <div className='flex space-x-2 justify-center py-4'>
             
         <a href="https://www.instagram.com/itskeiraww/"><Image
             src="/images/insta.png"
@@ -105,8 +105,8 @@ const Hero = () => {
             alt="gitLogo"
             style={{ transform: 'translate(-5%, 0%)', zIndex: 1 }}
         /></a>
+        
         </div>
-
     
     {/*
         <Image 
