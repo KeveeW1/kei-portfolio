@@ -2,37 +2,37 @@
 import React from 'react';
 import Image from 'next/image';
 import { TypeAnimation } from 'react-type-animation';
-import Navbar from './Navbar';
 import './Hero.css';
 
 const Hero = () => {
     
   return (
     <section>
-        <div style={{
-            backgroundImage: 'url(/images/cloud.png)',
-            backgroundSize: 'cover', 
-            backgroundPosition: 'center', 
-            width: '200px',
-            height: '200px',
-            position: 'absolute',
-            top: 190,
-            left: 865,
-        }}>
-    </div>
-    <div style={{
-            backgroundImage: 'url(/images/cloud.png)',
-            backgroundSize: 'cover', 
-            backgroundPosition: 'center', 
-            width: '200px',
-            height: '200px',
-            position: 'absolute',
-            top: 350,
-            left: 490,
-        }}>
-        </div>
-    
     <div className='text-center'>
+        <div>
+        <div style={{
+                backgroundImage: 'url(/images/cloud.png)',
+                backgroundSize: 'cover', 
+                backgroundPosition: 'center', 
+                width: '200px',
+                height: '200px',
+                position: 'absolute',
+                top: 190,
+                left: 865,
+            }}>
+        </div>
+        <div style={{
+                backgroundImage: 'url(/images/cloud.png)',
+                backgroundSize: 'cover', 
+                backgroundPosition: 'center', 
+                width: '200px',
+                height: '200px',
+                position: 'absolute',
+                top: 350,
+                left: 490,
+            }}>
+            </div>
+        </div>
     <h1 className='text-black font-bold text-7xl font-sans pt-40' style={{ transform: 'translate(0%, 0%)', zIndex: 1 }}>keira wong</h1>
     <h1 className='text-black text-3xl text-center inline-block'>i'm a&nbsp;</h1>
     <TypeAnimation className='text-black font-sans'
@@ -113,26 +113,10 @@ const Hero = () => {
         <div class="wave wave1"></div>
         <div class="wave wave2"></div>
         <div class="wave wave3"></div>
-        <div class="wave wave4"></div>
     </div>
        
        
     </section>
-    {/*
-        <Image 
-            src="/images/cloud.png"
-            width={400}
-            height={400}
-            alt="cloud1"
-        />
-
-        <Image 
-            src="/images/cloud.png"
-            width={400}
-            height={400}
-            alt="cloud2"
-        />
-        */}
     </section>
     
   )

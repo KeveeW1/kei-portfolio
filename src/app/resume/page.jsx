@@ -6,8 +6,9 @@ const Resume = () => {
     <div className='bg-white text-center flex justify-center'>
         <Navbar/>
     </div>
-    <div className='text-center text-black'>
-        <p>resume</p>
+
+    <div className='flex h-screen justify-center text-black'>
+        <embed src="/resume/Keira Wong Mar 2024.pdf" width="800px" height="800px" />
     </div>
     </section>
     
