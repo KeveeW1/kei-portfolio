@@ -13,9 +13,9 @@ export default function Home() {
      
       
 
-      <section id="footer">
+    <section id="footer">
           <div className="pl-10 pr-10 text-[#000000] font-sans">
-            supposed to be footer
+            footer
           </div>
     </section>
     </main>

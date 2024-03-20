@@ -3,6 +3,7 @@ import React from 'react';
 import Image from 'next/image';
 import { TypeAnimation } from 'react-type-animation';
 import Navbar from './Navbar';
+import './Hero.css';
 
 const Hero = () => {
     
@@ -107,7 +108,16 @@ const Hero = () => {
         /></a>
         
         </div>
-    
+    <section>
+    <div class="wave-container">
+        <div class="wave wave1"></div>
+        <div class="wave wave2"></div>
+        <div class="wave wave3"></div>
+        <div class="wave wave4"></div>
+    </div>
+       
+       
+    </section>
     {/*
         <Image 
             src="/images/cloud.png"
