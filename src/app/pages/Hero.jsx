@@ -9,7 +9,7 @@ const Hero = () => {
   return (
     <section>
     <div className='text-center'>
-        <div>
+    <div>
         <div style={{
                 backgroundImage: 'url(/images/cloud.png)',
                 backgroundSize: 'cover', 
@@ -18,7 +18,7 @@ const Hero = () => {
                 height: '200px',
                 position: 'absolute',
                 top: 190,
-                left: 865,
+                left: 865
             }}>
         </div>
         <div style={{

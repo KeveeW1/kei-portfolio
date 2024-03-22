@@ -6,7 +6,7 @@ import Link from 'next/link'
 const Navbar = () => {
   return (
     <nav>
-    <div className='flex items-center justify-between mx-auto p-8'>
+    <div className='flex items-center justify-between mx-auto p-7'>
       <div className='hidden md:flex md:w-auto' id="navbar">
         <ul className='flex font-sans'>
         <li>
