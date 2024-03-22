@@ -1,7 +1,4 @@
 import Navbar from '../pages/Navbar';
-import Link from 'next/link';
-import Image from 'next/image';
-import { TypeAnimation } from 'react-type-animation';
 
 const Archive = () => {
   return (
