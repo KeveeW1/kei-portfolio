@@ -108,7 +108,7 @@ const Hero = () => {
         /></a>
         </div>
         <div className='pt-11'>
-            <br></br><br></br><br></br><br></br><br></br><br></br> {/*LMAOOOOO don't look here.*/}
+            <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br> {/*LMAOOOOO don't look here.*/}
         <div className="text-center text-gray-600 font-sans pt-11">
             <i>COPYRIGHT 2024 KEIRA WONG</i>
           </div>
