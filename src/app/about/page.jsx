@@ -19,6 +19,9 @@ const About = () => {
             <li>likes: tech, pokémon, food</li>
             <li>personal missions: educating the next gen + bridging gender gap in cybersec + tech overall</li>
         </div>
+        <div>
+            <p>click <a href="/archive" className='text-orange-900'>[archive]</a> to see my past things :p </p>
+        </div>
     </div>
     </section>
     

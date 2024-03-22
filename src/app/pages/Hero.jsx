@@ -106,18 +106,26 @@ const Hero = () => {
             alt="gitLogo"
             style={{ transform: 'translate(-5%, 0%)', zIndex: 1 }}
         /></a>
-        
+        </div>
+        <div className='pt-11'>
+            <br></br><br></br><br></br><br></br><br></br><br></br> {/*LMAOOOOO don't look here.*/}
+        <div className="text-center text-gray-600 font-sans pt-11">
+            <i>COPYRIGHT 2024 KEIRA WONG</i>
+          </div>
         </div>
     <section>
+        
     <div class="wave-container">
         <div class="wave wave1"></div>
         <div class="wave wave2"></div>
         <div class="wave wave3"></div>
+        
     </div>
-       
-       
     </section>
+
     </section>
+
+    
     
   )
 }

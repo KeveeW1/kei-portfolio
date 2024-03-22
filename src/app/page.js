@@ -10,14 +10,6 @@ export default function Home() {
         <Navbar/>
         <Hero/>
       </div>
-     
-      
-
-    <section id="footer">
-          <div className="pl-10 pr-10 text-[#000000] font-sans">
-            footer
-          </div>
-    </section>
     </main>
   )
 }
