@@ -10,10 +10,10 @@ const About = () => {
         
     </div>
     <div className='flex justify-center p-2'>
-            <Image src="/images/keira.jpg" alt="picture of keira"  className='rounded-full overflow-hidden object-none w-40 h-40' width={300} height={100}/>
+            <Image src="/images/keira.jpg" alt="picture of keira" className='rounded-full overflow-hidden object-none w-40 h-40' width={300} height={100}/>
     </div>
     <div className='text-black text-center'>
-        <h1 className='text-4xl font-semibold pb-2'>it's me, keira</h1>
+        <h1 className='text-4xl font-semibold pb-2'>it&apos;s me, keira</h1>
         <div className='flex-col flex-start'>
             <li>uw info w/ concentration in software dev + cybersecurity</li>
             <li>likes: tech, pokémon, food</li>

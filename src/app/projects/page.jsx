@@ -22,7 +22,7 @@ const Projects = () => {
                     <h3 className="text-2xl mt-4 font-medium">ReNews</h3>
                     <h4>[Second Best Technology Winner @ MERGE 2021 Hackathon]</h4>
                     <p className="mt-2 opacity-50 font-light">
-                    ReNews takes a piece of news that the user feeds into it then, it runs an automatic check to verify that news and informs the user whether it's fake or real. ReNews also recommend users, based on their interests, stories, articles, and/or other information for their reference.
+                    ReNews takes a piece of news that the user feeds into it then, it runs an automatic check to verify that news and informs the user whether it&apos;s fake or real. ReNews also recommend users, based on their interests, stories, articles, and/or other information for their reference.
                     </p>
                     <div className="flex justify-between mt-4 text-black">
                       <span className="text-sm py-2 px-4 bg-gray-200 rounded-3xl mr-1">HTML</span>

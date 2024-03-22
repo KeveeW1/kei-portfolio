@@ -34,7 +34,7 @@ const Hero = () => {
             </div>
         </div>
     <h1 className='text-black font-bold text-7xl font-sans pt-40' style={{ transform: 'translate(0%, 0%)', zIndex: 1 }}>keira wong</h1>
-    <h1 className='text-black text-3xl text-center inline-block'>i'm a&nbsp;</h1>
+    <h1 className='text-black text-3xl text-center inline-block'>i&apos;m a&nbsp;</h1>
     <TypeAnimation className='text-black font-sans'
       sequence={[
         'coder.',
