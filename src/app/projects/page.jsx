@@ -77,6 +77,16 @@ const Projects = () => {
                     </div>
                 </a>
 
+                <a href="https://www.webtoons.com/en/canvas/bits-and-bytes/list?title_no=847572" className="p-5 m-2 flex flex-col items-start bg-black rounded-3xl cursor-pointer hover:bg-gray-500 text-left hover:scale-105 duration-200">
+                    <h3 className="text-2xl mt-4 font-medium">Bits and Bytes</h3>
+                    <p className="mt-2 opacity-50 font-light">
+                    Digital comic that educates youth about the foundations of technology and cybersecurity. All art and notes summarized by me! Information from Internet and certification courses.
+                    </p>
+                    <div className="flex justify-between mt-4 text-black">
+                      <span className="text-sm py-2 px-4 bg-gray-200 rounded-3xl mr-1">Webtoon</span>
+                    </div>
+                </a>
+
                 {/* <a href="----" className="p-5 m-2 flex flex-col items-start bg-black rounded-3xl cursor-pointer hover:bg-gray-500 text-left hover:scale-105 duration-200">
                     <h3 className="text-2xl mt-4 font-medium">title</h3>
                     <p className="mt-2 opacity-50 font-light">
