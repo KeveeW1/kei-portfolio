@@ -8,8 +8,8 @@ const Archive = () => {
         
     </div>
     <div className='text-center text-black'>
-        <h1 className='text-3xl'>archive</h1>
-        <h4 className=''><i>hello, welcome to my archive</i></h4>
+        <h1 className='text-3xl'>&lt;archive/&gt;</h1>
+        <h4 className=''><i>hi, welcome to keira&apos;s archive!</i></h4>
         <br></br>
         {/* <li>Figma’s Virtual Design Jam: 2nd Place Winner – 2020</li>
         <li>Google Change the Game Dahyun Challenge Winner – 2020</li>

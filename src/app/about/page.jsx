@@ -9,12 +9,12 @@ const About = () => {
         <Navbar/>
         
     </div>
-    <div className='flex justify-center p-2'>
+    <div className='flex justify-center p-3'>
             <Image src="/images/keira.jpg" alt="picture of keira" className='rounded-full overflow-hidden object-none w-40 h-40' width={300} height={100}/>
     </div>
     <div className='text-black text-center'>
-        <h1 className='text-4xl font-semibold pb-2'>it&apos;s me, keira</h1>
-        <div className='flex-col flex-start'>
+        <h1 className='text-4xl font-semibold pb-1'>hi, it&apos;s keira!</h1>
+        <div className='flex-col flex pt-2'>
             <li>uw info w/ concentration in software dev + cybersecurity</li>
             <li>likes: tech, pokémon, food</li>
             <li>personal missions: educating the next gen + bridging gender gap in cybersec + tech overall</li>
