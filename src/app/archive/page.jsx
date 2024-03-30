@@ -18,7 +18,7 @@ const Archive = () => {
           <li>Horizon x NYC Girl Scouts Hackathon Organizer – 2023</li>
           <li>HackPNW Hackathon Lead Organizer – 2023</li>
           <li>Hack+Policy Foundation MERGE Hackathon: 2nd Place Winner – 2021</li>
-          <li>Figma’s Virtual Design Jam: 2nd Place Winner – 2020</li>
+          <li>Figma&apos;s Virtual Design Jam: 2nd Place Winner – 2020</li>
           <li>Google Change the Game Dahyun Challenge Winner – 2020</li>
           <li>Microsoft “Girls in AI” Hackathon: 2nd Place Winner – 2019</li>
         </div>
@@ -26,9 +26,9 @@ const Archive = () => {
       <div>
         <h1 className='text-2xl pl-10 pt-5 text-center pb-2 text-blue-700'>publication + speakers</h1>
         <div className='text-left pl-10'></div>
-        <li>Speaker “Impact in My Community” hosted by Bill and Melinda Gates Foundation Teen Lounge Event – 2023</li>
-        <li>Published by Journal of Interdisciplinary Public Policy - “ReNews: A Real Solution to Fake” – 2022</li>
-        <li>Panelist “Experiences and challenges in the beautiful world of Computer Science by NCWIT” – 2022</li>
+        <li>Speaker &quot;Impact in My Community&quot; hosted by Bill and Melinda Gates Foundation Teen Lounge Event – 2023</li>
+        <li>Published by Journal of Interdisciplinary Public Policy - &quot;ReNews: A Real Solution to Fake&quot; – 2022</li>
+        <li>Panelist &quot;Experiences and challenges in the beautiful world of Computer Science by NCWIT&quot; – 2022</li>
         <li>Speaker, “National Day of Solidarity Against AAPI Hate” rally in Bellevue Downtown, sponsored by Pathway Foundation – 2021</li>
       </div>
 

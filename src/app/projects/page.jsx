@@ -22,7 +22,7 @@ const Projects = () => {
                     <h3 className="text-2xl mt-4 font-medium">ReNews</h3>
                     <h4>[Second Best Technology Winner @ MERGE 2021 Hackathon]</h4>
                     <p className="mt-2 opacity-50 font-light">
-                    ReNews is a tool developed to combat fake news by verifying news articles' authenticity. Users input articles, which ReNews checks for credibility and provides real/fake feedback. It also offers personalized news recommendations. Developed during Merge 2021 Hack/Policython, ReNews utilizes machine learning and was initially a web app deployed on Heroku, later improved as a Chrome extension.
+                    ReNews is a tool developed to combat fake news by verifying news articles&apos; authenticity. Users input articles, which ReNews checks for credibility and provides real/fake feedback. It also offers personalized news recommendations. Developed during Merge 2021 Hack/Policython, ReNews utilizes machine learning and was initially a web app deployed on Heroku, later improved as a Chrome extension.
                     </p>
                     <div className="flex justify-between mt-4 text-black">
                       <span className="text-sm py-2 px-4 bg-red-100 rounded-3xl mr-1">HTML</span>
@@ -62,7 +62,7 @@ const Projects = () => {
                     <h3 className="text-2xl mt-4 font-medium">I WAS HERE</h3>
                     <h4>[Submitted to WINFO 2024 Hackathon]</h4>
                     <p className="mt-2 opacity-50 font-light">
-                    At the Women in Informatics Hackathon, my team created "I WAS HERE," a social media app centered on authentic communication via voice messages, location tagging, photos, and videos. It aims to counter the performative nature of other platforms by focusing on genuine connections between friends through "Memories" and "Moments" tied to specific locations. Content is exclusive to friends, promoting a personalized experience and encouraging real-world exploration.
+                    At the Women in Informatics Hackathon, my team created &quot;I WAS HERE&quot;, a social media app centered on authentic communication via voice messages, location tagging, photos, and videos. It aims to counter the performative nature of other platforms by focusing on genuine connections between friends through &quot;Memories&quot; and &quot;Moments&quot; tied to specific locations. Content is exclusive to friends, promoting a personalized experience and encouraging real-world exploration.
                     </p>
                     <div className="flex justify-between mt-4 text-black">
                       <span className="text-sm py-2 px-4 bg-purple-100 rounded-3xl mr-1">Figma</span>
@@ -108,7 +108,7 @@ const Projects = () => {
                     <h4>[Personal Project]</h4>
                     <p className="mt-2 opacity-50 font-light">
                     Discord bot made to give the user the latest news on cybersecurity. Made to stay informed and educated daily on the latest cybersecurity tools and news in the community.
-                    <br></br>I couldn't find a trustworthy bot on Discord so I made my own!
+                    <br></br>I couldn&apos;t find a trustworthy bot on Discord so I made my own!
                     </p>
                     <div className="flex justify-between mt-4 text-black">
                       <span className="text-sm py-2 px-4 bg-green-100 rounded-3xl mr-1">Python</span>
@@ -119,7 +119,7 @@ const Projects = () => {
                     <h3 className="text-2xl mt-4 font-medium">VACCESS</h3>
                     <h4>[Submitted to Creatica 2020]</h4>
                     <p className="mt-2 opacity-50 font-light">
-                    VACCESS is a platform designed to provide accessible vaccine information. Users can create accounts, take post-vaccine surveys, and access COVID-19 resources. Future plans include detailed profiles, location-based vaccine searches, and QR code scanning for additional details. The website was built using HTML, CSS, Python, SQL, and Bootstrap/Flask on repl.it for collaboration.
+                    VACCESS is a platform designed to provide accessible vaccine information. Users can create accounts, take post-vaccine surveys, and access COVID-19 resources. The website was built using HTML, CSS, Python, SQL, and Bootstrap/Flask on repl.it for collaboration.
                     </p>
                     <div className="flex justify-between mt-4 text-black">
                       <span className="text-sm py-2 px-4 bg-gray-200 rounded-3xl mr-1">Swift</span>
@@ -131,7 +131,7 @@ const Projects = () => {
                     <h4>[Finalist for Camp Figma 2021]</h4>
                     <p className="mt-2 opacity-50 font-light">
                       This plug-in recognizes inefficient workflows and suggests tools and features for users to utilize and learn about.
-                      By reinforcing the user’s understanding of Figma tools and use cases, FigBud encourages learning by doing, and guides new designers as they bring their ideas to life. FigBud’s ultimate goal is to make design more accessible, especially to those designers just starting out!
+                      By reinforcing the user&apos;s understanding of Figma tools and use cases, FigBud encourages learning by doing, and guides new designers as they bring their ideas to life. FigBud&apos;s ultimate goal is to make design more accessible, especially to those designers just starting out!
                     </p>
                     <div className="flex justify-between mt-4 text-black">
                       <span className="text-sm py-2 px-4 bg-purple-100 rounded-3xl mr-1">Figma</span>
