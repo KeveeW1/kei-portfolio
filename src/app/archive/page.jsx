@@ -7,7 +7,7 @@ const Archive = () => {
         <Navbar/>
         
     </div>
-    <div className='text-center text-black'>
+    <div className='text-center text-black pb-10'>
         <h1 className='text-3xl'>&lt;archive/&gt;</h1>
         <h4 className=''><i>hi, welcome to keira&apos;s archive!</i></h4>
         <br></br>
