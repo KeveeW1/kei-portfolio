@@ -16,7 +16,7 @@ const About = () => {
         <h1 className='text-4xl font-semibold pb-1 flex justify-center'>hi, it&apos;s keira!</h1>
         <div className='pt-2 text-center'>
             <li>uw info w/ concentration in software dev + cybersecurity</li>
-            <li>likes: tech, pokémon, food</li>
+            <li>likes: tech, pokémon, video editing, mentoring, reading, drawing, food</li>
             <li>personal missions: educating the next gen + bridging gender gap in cybersec + tech overall</li>
 
             <p>click <a href="/archive" className='text-orange-900'>[archive]</a> to see my past experiences/awards</p>

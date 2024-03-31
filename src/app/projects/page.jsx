@@ -137,6 +137,7 @@ const Projects = () => {
                       <span className="text-sm py-2 px-4 bg-purple-100 rounded-3xl mr-1">Figma</span>
                     </div>
                 </a>
+                
                 {/* <a href="----" className="p-5 m-2 flex flex-col items-start bg-black rounded-3xl cursor-pointer hover:bg-gray-500 text-left hover:scale-105 duration-200">
                     <h3 className="text-2xl mt-4 font-medium">title</h3>
                     <p className="mt-2 opacity-50 font-light">
