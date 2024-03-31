@@ -24,6 +24,11 @@ const Navbar = () => {
                 projects
             </Link>
           </li>
+          {/* <li>
+            <Link href="/blog" className='block py-2 px-3 text-black sm:text-xl rounded hover:text-black'>
+                blog
+            </Link>
+          </li> */}
           <li>
             <Link href="/resume" className='block py-2 px-3 text-black sm:text-xl rounded hover:text-black'>
                 resume
@@ -34,18 +39,13 @@ const Navbar = () => {
                 contact
             </Link>
           </li>
-          {/* <li>
-          <Link href="/archive" className='block py-2 px-3 text-black sm:text-xl rounded hover:text-black'>
-                archive
-            </Link>
-          </li> */}
         </ul>
       </div>
     </div>
 
     {/* <div className='flex justify-between items-center w-full h-20 px-4 text-black bg-white'>
             <div>
-                <h1 className='text-1xl ml-2 cursor-pointer' onClick={handleClickLogo}>Samuel Han.</h1>
+                <h1 className='text-1xl ml-2 cursor-pointer' onClick={handleClickLogo}></h1>
             </div>
             <div className="w-96 hidden md:block">
                 <div className="font-normal text-base rfm-marquee-container bg-gray-50 text-black p-2 rounded-full cursor-pointer border border-transparent hover:border hover:border-gray-200">
@@ -55,7 +55,7 @@ const Navbar = () => {
                                 <div class="h-3 w-3 absolute bg-green-400 rounded-full mr-2"></div>
                                 <div class="h-3 w-3 absolute bg-green-400 rounded-full mr-2 animate-ping"></div>
                             </div>
-                            CURRENTLY LOOKING FOR SWE POSITION
+                            CURRENTLY LOOKING FOR ___ POSITION
                         </span>
 
                     </Marquee>
