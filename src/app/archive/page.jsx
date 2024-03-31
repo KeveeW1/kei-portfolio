@@ -30,7 +30,7 @@ const Archive = () => {
 <br></br>• Women in Cybersecurity (WiCyS): Top 1% of High School Scholar Award – 2022
 <br></br>• UN Global Goal National Community Service: Ambassador Award – 2022
 <br></br>• Kode With Klossy: Scholar Award – 2021 / Alumni and Scholar Award – 2022
-<br></br>• Titan Robotics Club: Mentors' Award and Varsity Letter Award – 2021
+<br></br>• Titan Robotics Club: Mentors&apos; Award and Varsity Letter Award – 2021
 <br></br>• National Center for Women & Information Technology (NCWIT): Aspirations in Computing Award – 2021</p>
           
         </div>
@@ -41,7 +41,7 @@ const Archive = () => {
         <p>• Speaker &quot;Impact in My Community&quot; hosted by Bill and Melinda Gates Foundation Teen Lounge Event – 2023
         <br></br> • Published by Journal of Interdisciplinary Public Policy - &quot;ReNews: A Real Solution to Fake&quot; – 2022
         <br></br> • Panelist &quot;Experiences and challenges in the beautiful world of Computer Science by NCWIT&quot; – 2022
-        <br></br> • Speaker, “National Day of Solidarity Against AAPI Hate” rally in Bellevue Downtown, sponsored by Pathway Foundation – 2021</p>
+        <br></br> • Speaker, &quot;National Day of Solidarity Against AAPI Hate&quot; rally in Bellevue Downtown, sponsored by Pathway Foundation – 2021</p>
         </div>
       </div>
 
