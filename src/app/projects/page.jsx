@@ -76,7 +76,7 @@ const Projects = () => {
                     In INFO 200, my team and I created an information resource for seniors (ages 60+) who need education and protection against online scams. We interviewed 4 individuals and received 38 responses to our survey to effectively empathize with our users. I worked mainly on the prototype in Figma, both high fidelity and low.
                     </p>
                     <div className="flex justify-between mt-4 text-black">
-                      <span className="text-sm py-2 px-4 bg-blue-200 rounded-3xl mr-1">Swift</span>
+                      <span className="text-sm py-2 px-4 bg-purple-100 rounded-3xl mr-1">Figma</span>
                     </div>
                 </a>
 
