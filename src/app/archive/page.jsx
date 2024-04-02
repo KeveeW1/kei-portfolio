@@ -58,7 +58,7 @@ const Archive = () => {
             • Partnered with Microsoft to drive a variety of Civic and Community events including voter registration and annual debate on current<br></br>
             issues<br></br>
             • Hosted hackathon to promote cybersecurity awareness through a highly stimulative learning path<br></br><br></br>
-            Pathway Foundation Civic and Social, Information Technology Lead/Outreach Executive, Bellevue, WA 2019 – Present<br></br>
+            Pathway Foundation Civic and Social, Information Technology Lead/Outreach Executive, Bellevue, WA<br></br>
             • Served as technical lead to support the organization&apos;s strategic planning and execution<br></br>
             • Mentored 30+ underserved students in Python programming year-round<br></br>
             </p>

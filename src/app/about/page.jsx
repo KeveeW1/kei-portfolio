@@ -21,9 +21,6 @@ const About = () => {
 
             <p>click <a href="/archive" className='text-orange-900'>[archive]</a> to see my past experiences/awards</p>
         </div>
-    
-           
-    
     </div>
     </section>
     
