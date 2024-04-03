@@ -31,7 +31,9 @@ const Archive = () => {
 <br></br>• UN Global Goal National Community Service: Ambassador Award – 2022
 <br></br>• Kode With Klossy: Scholar Award – 2021 / Alumni and Scholar Award – 2022
 <br></br>• Titan Robotics Club: Mentors&apos; Award and Varsity Letter Award – 2021
-<br></br>• National Center for Women & Information Technology (NCWIT): Aspirations in Computing Award – 2021</p>
+<br></br>• National Center for Women & Information Technology (NCWIT): Aspirations in Computing Award – 2021
+<br></br>• Girls Make Games Christmas Postcard Winner 
+<br></br>• The American Chemical Society (ACS) Puget Sound Poetry Local Section: 1st Place</p>
           
         </div>
       
@@ -67,7 +69,9 @@ const Archive = () => {
         {/* <div>
         <h1 className='pt-2 text-2xl text-left pl-10 text-blue-900'>member of...</h1>
         <div className='text-left pl-10'>
-          <li>Rewriting Code</li>
+          <li>Women in Cybersecurity (WiCyS)</li>
+          <li>Rewriting the Code</li>
+          <li>Girls Make Games (Alumni)</li>
           <li>Girls Who Code</li>
           <li>Titan Robotics Club (Alumni)</li>
           <li>NCWIT</li>
