@@ -63,6 +63,18 @@ const Archive = () => {
             • Mentored 30+ underserved students in Python programming year-round<br></br>
             </p>
         </div>
+
+        {/* <div>
+        <h1 className='pt-2 text-2xl text-left pl-10 text-blue-900'>member of...</h1>
+        <div className='text-left pl-10'>
+          <li>Rewriting Code</li>
+          <li>Girls Who Code</li>
+          <li>Titan Robotics Club (Alumni)</li>
+          <li>NCWIT</li>
+          <p className=''>there's more...</p>
+        </div>
+        </div> */}
+
       </div>
     </div>
     </section>
