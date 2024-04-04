@@ -71,6 +71,7 @@ const Archive = () => {
         <div className='text-left pl-10'>
           <li>Women in Cybersecurity (WiCyS)</li>
           <li>Rewriting the Code</li>
+          <li>Kode With Klossy (Alumni)</li>
           <li>Girls Make Games (Alumni)</li>
           <li>Girls Who Code</li>
           <li>Titan Robotics Club (Alumni)</li>
