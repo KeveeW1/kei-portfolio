@@ -12,8 +12,7 @@ const Projects = () => {
         <Navbar/>
     </div>
     <div className='text-center text-black'>
-      <h1 className='text-5xl'>projects</h1>
-      
+      <h1 className='text-5xl'>projects</h1> 
     </div>
     <div className="flex flex-col items-center">
             <h1 className="text-5xl">Projects</h1>
