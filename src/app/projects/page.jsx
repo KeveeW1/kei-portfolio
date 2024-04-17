@@ -12,7 +12,7 @@ const Projects = () => {
         <Navbar/>
     </div>
     <div className='text-center text-black'>
-      <h1 className='text-5xl'>projects</h1> 
+      <h1 className='text-5xl pb-9'>projects</h1> 
     </div>
     <div className="flex flex-col items-center">
             <div className="grid-cols-1 md:grid-cols-2 lg:grid lg:grid-cols-2">
