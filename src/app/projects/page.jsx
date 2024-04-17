@@ -15,7 +15,6 @@ const Projects = () => {
       <h1 className='text-5xl'>projects</h1> 
     </div>
     <div className="flex flex-col items-center">
-            <h1 className="text-5xl">Projects</h1>
             <div className="grid-cols-1 md:grid-cols-2 lg:grid lg:grid-cols-2">
                 <a href="https://github.com/KeveeW1/ReNews-BrowserExtension" className="p-5 m-2 flex flex-col items-start bg-black rounded-3xl cursor-pointer hover:bg-gray-500 text-left hover:scale-105 duration-200">
                     <h3 className="text-2xl mt-4 font-medium">ReNews</h3>
