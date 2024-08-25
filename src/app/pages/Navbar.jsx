@@ -28,12 +28,12 @@ const Navbar = () => {
             <Link href="/blog" className='block py-2 px-3 text-black sm:text-xl rounded hover:text-black'>
                 blog
             </Link>
-          </li> */}
+          </li> 
           <li>
             <Link href="/resume" className='block py-2 px-3 text-black sm:text-xl rounded hover:text-black'>
                 resume
             </Link>
-          </li>
+          </li>*/}
           <li>
             <Link href="/contact" className='block py-2 px-3 text-black sm:text-xl rounded hover:text-black'>
                 contact
