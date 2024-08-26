@@ -21,7 +21,7 @@ const About = () => {
           </div>
           
           <div className='w-full md:w-1/2 md:pl-8 text-black'>
-            <h1 className='text-4xl font-semibold pb-4 text-center md:text-left'>hi, it&apos;s erza!</h1>
+            <h1 className='text-4xl font-semibold pb-4 text-center md:text-left'>hi, it&apos;s keira!</h1>
             <ul className='list-disc list-inside space-y-2 mb-4'>
               <li>uw info w/ concentration in software dev + cybersecurity</li>
               <li>likes: tech, pokémon, video editing, mentoring, reading, drawing, food</li>
