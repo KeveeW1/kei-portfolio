@@ -1,71 +1,55 @@
-import React from 'react'
+'use client';
+import React, { useState } from 'react'
 import Link from 'next/link'
-//import Marquee from 'react-fast-marquee';
-
 
 const Navbar = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
   return (
-    <nav>
-    <div className='flex items-center justify-between mx-auto p-7'>
-      <div className='hidden md:flex md:w-auto' id="navbar">
-        <ul className='flex font-sans'>
-        <li>
-            <Link href="/" className='block py-2 px-3 text-black sm:text-xl rounded hover:text-black'>
+    <nav className="p-7">
+      <div className='flex items-center justify-between mx-auto'>
+        <div className="md:hidden">
+          <button onClick={() => setIsOpen(!isOpen)} className="text-black focus:outline-none">
+            <svg className="h-6 w-6 fill-current" viewBox="0 0 24 24">
+              {isOpen ? (
+                <path fillRule="evenodd" clipRule="evenodd" d="M18.278 16.864a1 1 0 0 1-1.414 1.414l-4.829-4.828-4.828 4.828a1 1 0 0 1-1.414-1.414l4.828-4.829-4.828-4.828a1 1 0 0 1 1.414-1.414l4.829 4.828 4.828-4.828a1 1 0 1 1 1.414 1.414l-4.828 4.829 4.828 4.828z" />
+              ) : (
+                <path fillRule="evenodd" d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z" />
+              )}
+            </svg>
+          </button>
+        </div>
+        <div className={`${isOpen ? 'block' : 'hidden'} md:flex md:w-auto w-full`} id="navbar">
+          <ul className='flex flex-col md:flex-row font-sans'>
+            <li>
+              <Link href="/" className='block py-2 px-3 text-black sm:text-xl rounded hover:bg-gray-100'>
                 home
-            </Link>
-          </li>
-          <li>
-            <Link href="/about" className='block py-2 px-3 text-black sm:text-xl rounded hover:text-black'>
+              </Link>
+            </li>
+            <li>
+              <Link href="/about" className='block py-2 px-3 text-black sm:text-xl rounded hover:bg-gray-100'>
                 about
-            </Link>
-          </li>
-          <li>
-            <Link href="/projects" className='block py-2 px-3 text-black sm:text-xl rounded hover:text-black'>
+              </Link>
+            </li>
+            <li>
+              <Link href="/projects" className='block py-2 px-3 text-black sm:text-xl rounded hover:bg-gray-100'>
                 projects
-            </Link>
-          </li>
-          {/* <li>
-            <Link href="/blog" className='block py-2 px-3 text-black sm:text-xl rounded hover:text-black'>
-                blog
-            </Link>
-          </li> 
-          <li>
-            <Link href="/resume" className='block py-2 px-3 text-black sm:text-xl rounded hover:text-black'>
+              </Link>
+            </li>
+            <li>
+              <Link href="/resume" className='block py-2 px-3 text-black sm:text-xl rounded hover:bg-gray-100'>
                 resume
-            </Link>
-          </li>*/}
-          <li>
-            <Link href="/contact" className='block py-2 px-3 text-black sm:text-xl rounded hover:text-black'>
+              </Link>
+            </li>
+            <li>
+              <Link href="/contact" className='block py-2 px-3 text-black sm:text-xl rounded hover:bg-gray-100'>
                 contact
-            </Link>
-          </li>
-        </ul>
+              </Link>
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
-
-    {/* <div className='flex justify-between items-center w-full h-20 px-4 text-black bg-white'>
-            <div>
-                <h1 className='text-1xl ml-2 cursor-pointer' onClick={handleClickLogo}></h1>
-            </div>
-            <div className="w-96 hidden md:block">
-                <div className="font-normal text-base rfm-marquee-container bg-gray-50 text-black p-2 rounded-full cursor-pointer border border-transparent hover:border hover:border-gray-200">
-                    <Marquee>
-                        <span className='text-sm flex items-center gap-x-6'>
-                            <div class="relative flex items-center jutify-center">
-                                <div class="h-3 w-3 absolute bg-green-400 rounded-full mr-2"></div>
-                                <div class="h-3 w-3 absolute bg-green-400 rounded-full mr-2 animate-ping"></div>
-                            </div>
-                            CURRENTLY LOOKING FOR ___ POSITION
-                        </span>
-
-                    </Marquee>
-                </div>
-            </div>
-            <div className='place-items-center'>
-                <DropDown showMenu={showMenu} setShowMenu={setShowMenu} />
-            </div>
-        </div> */}
-  </nav>
+    </nav>
   );
 };
 
