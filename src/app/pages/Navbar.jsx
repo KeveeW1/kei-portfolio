@@ -7,7 +7,7 @@ const Navbar = () => {
 
   return (
     <nav className="p-7">
-      <div className='flex items-center justify-between mx-auto'>
+      <div className='flex items-center justify-center mx-auto'>
         <div className="md:hidden">
           <button onClick={() => setIsOpen(!isOpen)} className="text-black focus:outline-none">
             <svg className="h-6 w-6 fill-current" viewBox="0 0 24 24">
@@ -19,10 +19,10 @@ const Navbar = () => {
             </svg>
           </button>
         </div>
-        <div className={`${isOpen ? 'block' : 'hidden'} md:flex md:w-auto w-full`} id="navbar">
-          <ul className='flex flex-col md:flex-row font-sans'>
+        <div className={`${isOpen ? 'block' : 'hidden'} md:flex md:w-auto absolute left-0 top-0 h-screen bg-transparent z-10 md:relative md:h-auto`} id="navbar">
+          <ul className='flex flex-col md:flex-row font-sans p-4 md:p-0'>
             <li>
-              <Link href="/" className='block py-2 px-3 text-black sm:text-xl rounded hover:bg-gray-100'>
+              <Link href="/" className='block py-2 px-3 text-black sm:text-xl rounded hover:bg-gray-100 '>
                 home
               </Link>
             </li>
@@ -42,7 +42,7 @@ const Navbar = () => {
               </Link>
             </li>
             <li>
-              <Link href="/contact" className='block py-2 px-3 text-black sm:text-xl rounded hover:bg-gray-100'>
+              <Link href="/contact" className='block py-2 px-3 text-black sm:text-xl rounded hover:bg-gray-100 bg-white'>
                 contact
               </Link>
             </li>
