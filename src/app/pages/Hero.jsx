@@ -45,6 +45,8 @@ const Hero = () => {
                             'hacker.',
                             1000,
                             'designer.',
+                            1000,
+                            'leader.',
                             1000
                         ]}
                         wrapper="span"
