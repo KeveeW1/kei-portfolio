@@ -66,19 +66,21 @@ const Archive = () => {
             </p>
         </div>
 
-        {/* <div>
-        <h1 className='pt-2 text-2xl text-left pl-10 text-blue-900'>member of...</h1>
+        <div>
+        <h1 className='pt-2 text-2xl text-left pl-10 text-blue-900'>organizations involved with:</h1>
         <div className='text-left pl-10'>
+          <li>FIRST Robotics</li>
+          <li>Girls Make Games</li>
+          <li>Girls Who Code (GWC)</li>
+          <li>Kode With Klossy</li>
+          <li>National Center for Women & Information Technology (NCWIT)</li>
+          <li>Rewriting the Code (RTC)</li>
+          <li>Society of Women Engineers (SWE)</li>
           <li>Women in Cybersecurity (WiCyS)</li>
-          <li>Rewriting the Code</li>
-          <li>Kode With Klossy (Alumni)</li>
-          <li>Girls Make Games (Alumni)</li>
-          <li>Girls Who Code</li>
-          <li>Titan Robotics Club (Alumni)</li>
-          <li>NCWIT</li>
-          <p className=''>there's more...</p>
+          <li>Women in Security and Privacy (WISP)</li>
+          {/*<p className=''>there's more...</p>*/}
         </div>
-        </div> */}
+        </div>
 
       </div>
     </div>
